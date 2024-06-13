@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #222;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.curd{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.head h2{
+    margin: 10px 0;
+}
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background:#111;
+    padding: 5px;
+    margin: 4px 0;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+input:focus{
+    transform: scale(1.1);
+    background: #000;
+}
+.price input{
+    width: 20%;
+}
+#totle{
+    background: #a00d02;
+    padding:5px 2px ;
+    border-radius: 4px;
+}
+#totle::before{
+    content: "Total: ";
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: 0;
+    background:#390053 ;
+    cursor:pointer;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    background: #51025f;
+    letter-spacing: 1px;
+}
+
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button{
+    width: 45%;
+}
+table{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin:10px 0;
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding:5px;
+}
+#deleteAll{
+    margin: 10px 0;
+}
